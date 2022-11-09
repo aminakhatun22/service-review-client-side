@@ -19,9 +19,9 @@ const Navigation = () => {
                             <li tabIndex={0}>
                                 <Link to="/review">Review</Link>
                             </li>
-                            <li><Link to="">My Reviews</Link></li>
-                            <li><Link to="">Add Service</Link></li>
-                            <li><Link to="">Login</Link></li>
+                            <li><Link to="/my reviews">My Reviews</Link></li>
+                            <li><Link to="/add services">Add Service</Link></li>
+                            <li><Link to="/login">Login</Link></li>
                         </ul>
                     </div>
                     <img className='object-scale-down h-20 w-46 rounded' src={navIcon}></img>
@@ -33,9 +33,9 @@ const Navigation = () => {
                         <li >
                             <Link to="/review">Review</Link>
                         </li>
-                        <li><Link to="">My Reviews</Link></li>
-                        <li><Link to="">Add Service</Link></li>
-                        <li><Link to="">Login</Link></li>
+                        <li><Link to="/my reviews">My Reviews</Link></li>
+                        <li><Link to="/add services">Add Service</Link></li>
+                        <li><Link to="/login">Login</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

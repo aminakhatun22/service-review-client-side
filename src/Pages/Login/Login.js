@@ -36,7 +36,7 @@ const Login = () => {
 
                         </div>
                     </form>
-                    <p className='text-center'>New to Genious Car <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link></p>
+                    <p className='text-center'>New to Aahar <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link></p>
                 </div>
             </div>
         </div>

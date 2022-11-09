@@ -9,7 +9,7 @@ const Main = () => {
     return (
         <div>
             <Navigation></Navigation>
-            <Login></Login>
+
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
