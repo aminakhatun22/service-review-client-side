@@ -5,7 +5,7 @@
         "name": "Marshall Dejesus",
         "image": "https://i.ibb.co/JQBphww/banner4.jpg",
         "description": "",
-        "rating": ""
+        "rating": "8"
     },
     {
         "id": "636bab0ce4a81423b7c58c54",
@@ -13,14 +13,14 @@
         "name": "Guerra Schwartz",
         "image": "https://i.ibb.co/yYKKxtJ/chicken-curry-in-pressure-cooker.jpg",
         "description": "",
-        "rating": ""
+        "rating": "7"
     },
     {
         "id": "636bab0cb1cf5d96b8d795c2",
         "price": 278,
         "name": "Alyssa Mckay",
         "image": "https://i.ibb.co/ydXk8g3/chusir-payes.gif",
-        "description": "",
+        "description": "9",
         "rating": ""
     },
     {
@@ -29,7 +29,7 @@
         "name": "Arnold Lester",
         "image": "https://i.ibb.co/q7hkybq/images.jpg",
         "description": "",
-        "rating": ""
+        "rating": "9.5"
     },
     {
         "id": "636bab0cc575dc5d0720dd2c",
@@ -37,7 +37,7 @@
         "name": "Sasha Ward",
         "image": "https://i.ibb.co/jJRKkCy/l-intro-1642720908.jpg",
         "description": "",
-        "rating": ""
+        "rating": "9.9"
     },
     {
         "id": "636bad1c520e354b91330249",
@@ -45,6 +45,6 @@
         "name": "Shari Waller",
         "image": "https://i.ibb.co/vJfs5jh/mario-raj-n1z3gc9g-J8-I-unsplash.jpg",
         "description": "",
-        "rating": ""
+        "rating": "10"
     }
 ]
