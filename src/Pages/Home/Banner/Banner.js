@@ -3,9 +3,7 @@ import banner1 from '../../../assests/images/footer-gallery/banner1.jpg';
 import banner2 from '../../../assests/images/footer-gallery/banner2.jpg';
 import banner3 from '../../../assests/images/footer-gallery/banner3.jpg';
 import banner4 from '../../../assests/images/footer-gallery/banner4.jpg';
-// import banner2 from '../../../assests/images/footer-gallery/banner2';
-// import banner3 from '../../../assests/images/footer-gallery/banner3';
-// import banner4 from '../../../assests/images/footer-gallery/banner4';
+
 
 const Banner = () => {
     return (
