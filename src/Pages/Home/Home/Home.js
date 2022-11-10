@@ -9,9 +9,13 @@ const Home = () => {
             <Banner></Banner>
             <Services></Services>
 
-            <Link to='/services'>
-                <button className="btn btn-primary">See all</button></Link>
-            <h3>home</h3>
+
+
+            <div className="navbar-center">
+                <Link to='/services'>
+                    <button className="btn">See All</button></Link>
+            </div>
+
         </div>
     );
 };

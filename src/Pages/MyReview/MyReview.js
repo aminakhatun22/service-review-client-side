@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const MyReview = () => {
     return (
         <div>
-            <h2>Heaser</h2>
+            <h1>review</h1>
         </div>
     );
 };
 
-export default Header;
+export default MyReview;

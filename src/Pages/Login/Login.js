@@ -1,11 +1,19 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Contexts/AuthProvider/AuthProvider';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Login = () => {
 
     const { login } = useContext(AuthContext);
+
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const form = location.state?.form?.pathname || '/';
+
+
+
 
     const handleLogin = event => {
         event.preventDefault();
@@ -17,19 +25,17 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                navigate(form, { replace: true });
             })
             .then(error => console.error(error));
     }
     return (
-        <div className="hero  w-full my-20">
-            <div className="hero-content flex-col lg:flex-row grid gap-10 md:grid-cols-2">
-                <div className="text-center lg:text-left">
+        <div className="hero  w-full my-20 center">
+            <div className="hero-content ">
 
-                    {/* <img className='w-3/4' src={img} alt="" /> */}
-                </div>
-                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100  py-20">
+                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-blue-300  py-20 mr-34">
                     <h1 className="text-5xl font-bold text-center">Login </h1>
-                    <form onSubmit={handleLogin} className="card-body">
+                    <form onSubmit={handleLogin} className="card-body ">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
@@ -40,7 +46,7 @@ const Login = () => {
                             <label className="label">
                                 <span className="label-text">Password</span>
                             </label>
-                            <input name="password" type="text" placeholder="password" className="input input-bordered" required />
+                            <input name="password" type="password" placeholder="password" className="input input-bordered" required />
                             <label className="label">
                                 <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                             </label>
