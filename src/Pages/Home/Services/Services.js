@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import ServiceCard from './ServiceCard';
 import ClipLoader from "react-spinners/ClipLoader";
+import useTitle from '../../../Hooks/UseTitle';
 
 
 
 const Services = () => {
+    useTitle('Services')
 
     let [loading, setLoading] = useState(true);
     let [color, setColor] = useState("orange");

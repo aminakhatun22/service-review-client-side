@@ -17,7 +17,7 @@ const Navigation = () => {
                             <li><Link to="/home">Home</Link></li>
                             <li><Link to='/blog'>Blog</Link></li>
                             <li tabIndex={0}>
-                                <Link to="/review">Review</Link>
+                                <Link to="/ add review"> AddReview</Link>
                             </li>
                             <li><Link to="/my reviews">My Reviews</Link></li>
                             <li><Link to="/services">Services</Link></li>
@@ -32,7 +32,7 @@ const Navigation = () => {
                         <li><Link to='/home'>Home</Link></li>
                         <li><Link to='/blog'>Blog</Link></li>
                         <li >
-                            <Link to="/review">Review</Link>
+                            <Link to="/ add review"> Add Review</Link>
                         </li>
                         <li><Link to="/my reviews">My Reviews</Link></li>
                         <li><Link to="/services">Services</Link></li>

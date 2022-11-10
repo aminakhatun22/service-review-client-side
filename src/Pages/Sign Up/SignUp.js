@@ -1,15 +1,18 @@
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import useTitle from '../../Hooks/UseTitle';
 import { AuthContext } from '../Contexts/AuthProvider/AuthProvider';
 
 const SignUp = () => {
+    useTitle('SignUp')
     const { createUser } = useContext(AuthContext)
     const handleSignUp = event => {
         event.preventDefault();
         const form = event.terget;
         const email = form.email.value;
         const password = form.password.value;
+
 
         createUser(email, password)
             .then(result => {

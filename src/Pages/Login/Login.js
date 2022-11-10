@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import useTitle from '../../Hooks/UseTitle';
 import { AuthContext } from '../Contexts/AuthProvider/AuthProvider';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
@@ -11,6 +12,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     const form = location.state?.form?.pathname || '/';
+    useTitle('Login')
 
 
 

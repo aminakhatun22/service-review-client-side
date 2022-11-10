@@ -1,7 +1,9 @@
 import React from 'react'
+import useTitle from '../../Hooks/UseTitle'
 
 
 const ErrorPage = () => {
+    useTitle('ErrorPage')
     return (
         <>
             {/* <Header /> */}
