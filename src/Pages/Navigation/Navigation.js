@@ -20,6 +20,7 @@ const Navigation = () => {
                                 <Link to="/review">Review</Link>
                             </li>
                             <li><Link to="/my reviews">My Reviews</Link></li>
+                            <li><Link to="/services">Services</Link></li>
                             <li><Link to="/add services">Add Service</Link></li>
                             <li><Link to="/login">Login</Link></li>
                         </ul>
@@ -34,7 +35,9 @@ const Navigation = () => {
                             <Link to="/review">Review</Link>
                         </li>
                         <li><Link to="/my reviews">My Reviews</Link></li>
+                        <li><Link to="/services">Services</Link></li>
                         <li><Link to="/add services">Add Service</Link></li>
+
                         <li><Link to="/login">Login</Link></li>
                     </ul>
                 </div>

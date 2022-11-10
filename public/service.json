@@ -1,50 +1,44 @@
 [
     {
-        "id": "636bab0c8c5ef135b4807b91",
         "price": 127,
-        "name": "Marshall Dejesus",
+        "name": "Pizza",
         "image": "https://i.ibb.co/JQBphww/banner4.jpg",
-        "description": "",
+        "description": "The popularity of pizza in the United States began with the Italian community in New York City, where the Neapolitan pizza had an early influence. The first pizzeria appeared in New York City about the turn of the 20th century. After World War II the pizza industry boomed. Soon there was scarcely a hamlet without a pizzeria. Sausage, bacon, ground beef, pepperoni, mushrooms, and peppers are traditional toppings familiar to many Americans, but ingredients as varied as arugula, pancetta, and truffles have found their way onto pizzas there. Variations are also often tied to different regions in the country, Chicago’s deep-dish pizza and California-style pizza among them.",
         "rating": "8"
     },
     {
-        "id": "636bab0ce4a81423b7c58c54",
         "price": 166,
-        "name": "Guerra Schwartz",
+        "name": "Chiken Curry",
         "image": "https://i.ibb.co/yYKKxtJ/chicken-curry-in-pressure-cooker.jpg",
-        "description": "",
+        "description": "Chicken curry or curry chicken is a dish originating from the Indian subcontinent. It is common in the Indian subcontinent, Southeast Asia, Great Britain, and the Caribbean. A typical curry from the Indian subcontinent consists of chicken stewed in an onion- and tomato-based sauce, flavoured with ginger, garlic, tomato puree, chilli peppers and a variety of spices, often including turmeric, cumin, coriander, cinnamon, and cardamom. Outside of South Asia, chicken curry is often made with a pre-made spice mixture known as curry powder.",
         "rating": "7"
     },
     {
-        "id": "636bab0cb1cf5d96b8d795c2",
         "price": 278,
-        "name": "Alyssa Mckay",
+        "name": "firni",
         "image": "https://i.ibb.co/ydXk8g3/chusir-payes.gif",
         "description": "9",
-        "rating": ""
+        "rating": "phirni recipe | firni recipe | phirni sweet recipe | rice phirni recipe with step by step photo and video recipe. even though it is sometimes confused to rice kheer because of the use of rice grains, yet there is slight difference. basically the rice grains are soaked in water and grounded to coarse paste which is later mixed with thickened milk."
     },
     {
-        "id": "636bab0c43ee9dc541a2f15f",
         "price": 53,
-        "name": "Arnold Lester",
+        "name": "Burger",
         "image": "https://i.ibb.co/q7hkybq/images.jpg",
-        "description": "",
+        "description": "Though burgers provide protein and other nutrients, they're not seen as a healthy food option. That's because they're high in saturated fat and cholesterol. They're also often bundled with sodas and french fries, which contain large amounts of sugar and saturated fats. ",
         "rating": "9.5"
     },
     {
-        "id": "636bab0cc575dc5d0720dd2c",
         "price": 152,
-        "name": "Sasha Ward",
+        "name": "French Fry",
         "image": "https://i.ibb.co/jJRKkCy/l-intro-1642720908.jpg",
-        "description": "",
+        "description": "Though burgers provide protein and other nutrients, they're not seen as a healthy food option. That's because they're high in saturated fat and cholesterol. They're also often bundled with sodas and french fries, which contain large amounts of sugar and saturated fats. ",
         "rating": "9.9"
     },
     {
-        "id": "636bad1c520e354b91330249",
         "price": 177,
-        "name": "Shari Waller",
+        "name": "Biriyani",
         "image": "https://i.ibb.co/vJfs5jh/mario-raj-n1z3gc9g-J8-I-unsplash.jpg",
-        "description": "",
+        "description": "A world-renowned Indian dish, biryani takes time and practice to make but is worth every bit of the effort. Long-grained rice (like basmati) flavored with fragrant spices such as saffron and layered with lamb, chicken, fish, or vegetables and a thick gravy. The dish is then covered, its lid secured with dough, and then the biryani is cooked over a low flame. This is definitely a special occasion dish.",
         "rating": "10"
     }
 ]
